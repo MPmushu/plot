@@ -29,7 +29,7 @@ def main():
 
         FTlist[idx][0] += 1
         FTlist[idx][1] += heightEx(name)
-  
+
     for z in range(9):
         if FTlist[z][0] != 0:
             print("No.", z, "ファイル数", FTlist[z][0], "合計値", FTlist[z][1], "平均値", FTlist[z][1] / FTlist[z][0])
